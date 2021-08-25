@@ -14,6 +14,9 @@ const cores = {
 
 export const decodedValue = (cor) => {
 const colors = cores[cor[0]] + cores[cor[1]];
-
+// const primeiraCor = cor[0] // opção com as posições do array (input) separadas
+// const segundaCor = cor[1]
+// const colors = cores[primeiraCor] + cores[segundaCor]
+// return colors
 return +colors
 };
